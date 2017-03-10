@@ -1,8 +1,8 @@
 # py-lz4framed (Iotic Labs)
 
 {% set name = "py-lz4framed" %}
-{% set version = "0.9.5" %}
-{% set sha256 = "c57badc7708f1b678f8c8e913d96e3478bcae3e4c38526ec9853822f76de03be" %}
+{% set version = "0.9.6" %}
+{% set sha256 = "4cac23ac87c2bdc7dea00ea0c39f6751bbeb01cb5337038062e97d5b900c79d8" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +15,6 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
