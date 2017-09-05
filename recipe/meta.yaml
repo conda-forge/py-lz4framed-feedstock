@@ -1,8 +1,8 @@
 # py-lz4framed (Iotic Labs)
 
 {% set name = "py-lz4framed" %}
-{% set version = "0.9.7" %}
-{% set sha256 = "f65832a42a0e5c937e6efbe9ebadbaa066292d3b99b9fcbc72391fcabbcbc754" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "be316f56d0b45a27d204f2c49684a5719befbfcbca351e117d02211c20e2995b" %}
 
 package:
   name: {{ name|lower }}
