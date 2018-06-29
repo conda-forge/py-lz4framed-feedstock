@@ -16,14 +16,16 @@ bound to Yann Collet's LZ4 C implementation.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/py-lz4framed-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/py-lz4framed-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/py-lz4framed-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/py-lz4framed-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/py-lz4framed-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/py-lz4framed-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/py-lz4framed-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/py-lz4framed-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/py-lz4framed-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/py-lz4framed-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/py-lz4framed-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/py-lz4framed-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py-lz4framed/badges/version.svg)](https://anaconda.org/conda-forge/py-lz4framed)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py-lz4framed/badges/downloads.svg)](https://anaconda.org/conda-forge/py-lz4framed)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-py--lz4framed-green.svg)](https://anaconda.org/conda-forge/py-lz4framed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py-lz4framed.svg)](https://anaconda.org/conda-forge/py-lz4framed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/py-lz4framed.svg)](https://anaconda.org/conda-forge/py-lz4framed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py-lz4framed.svg)](https://anaconda.org/conda-forge/py-lz4framed) |
 
 Installing py-lz4framed
 =======================
