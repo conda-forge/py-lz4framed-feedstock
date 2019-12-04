@@ -1,8 +1,8 @@
 # py-lz4framed (Iotic Labs)
 
 {% set name = "py-lz4framed" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "338cce7e8d0553f6df65921fdd85a04feed8f01a9aeee91f530b1bf8c6edba65" %}
+{% set version = "0.14.0" %}
+{% set sha256 = "f2f1e52158e8fca2bbc8e69fb834274b99a74dff4907d66567f60293232767b7" %}
 
 package:
   name: {{ name|lower }}
@@ -14,8 +14,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
@@ -23,6 +23,7 @@ requirements:
   host:
     - python
     - setuptools
+    - pip
   run:
     - python
 
